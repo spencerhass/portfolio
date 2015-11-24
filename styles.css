@@ -6,29 +6,37 @@ color:#DCDCDC;
   overflow-x:hidden;
 }
 
+ol, ul {list-style:none}
 
-.navbar {
-    background-color: #3B3B3B;
-    color:#DCDCDC
-    position:fixed;
-    width:100%;
-    z-index:9999;    
-    width: 970px;
-    height: 70px;
-    margin: 0 auto;
+.topnav {
+  background-color:#3B3B3B;
+  position:fixed;
+  width:100%;
+  border-bottom:1px solid #DDD;
+  z-index:9999;
+}
+
+.topnav .content {
+  width:970px;
+  height:70px;
+  margin:0 auto;
+}
+
+.topnav .links
+{float:right;
+color:#DCDCDC;
+font-size:1.2em;
+margin-top:1.7rem;
+}
+
+.topnav .links li {display:inline-block;
+margin-left:1px;}
+
+.topnav .links li:hover {
+  cursor:pointer;
 }
 
 
-.navbar .links {float:right;
-font-size:1.04rem;
-margin-top:1.7rem}
-
-.navbar .links li{display:inline-block;
-margin-left:1.563rem}
-
-.navbar .links li:hover {
-    cursor: pointer;
-    color: #3B3B3B;}
 
 .masthead
 {
@@ -63,14 +71,22 @@ color:black}
   border: 4px solid #DCDCDC;
 }
 
+.projects img {width:100%;}
+
 .intro {margin-top:2em}
 
+.projects,
 .intro,
 .location,
-.about {max-width: 38em;
+.about,
+.contact
+ {max-width: 38em;
     margin-left: auto;
     margin-right: auto;
     line-height:200%}
+
+
+footer {font-size:1.3em;}
 
 .content-footer{text-align:center;
 margin-top:2em;
@@ -78,16 +94,8 @@ padding:4em 0}
 
 .social li,a{display:inline-block;
 color:#DCDCDC;
+padding:2px;
 }
-
-
-#contact {text-align:center}
-
-
-#projects {text-align:center;
-margin:100px 0 100px 0}
-
-
 
 
 @media only screen and (max-width: 500px) {
