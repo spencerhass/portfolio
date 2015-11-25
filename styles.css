@@ -1,110 +1,150 @@
-body{background:#3B3B3B;
-color:#DCDCDC;
-   width: 100%;
+body {
+    background: #3B3B3B;
+    color: #DCDCDC;
+    width: 100%;
     height: 100%;
     margin: 0px;
-  overflow-x:hidden;
+    overflow-x: hidden;
 }
 
-ol, ul {list-style:none}
+ol,
+ul {
+    list-style: none
+}
+
+.project-info {
+  background-color: rgba(0,0,0,.8);
+  font-size:16px;
+  height:100%;
+  padding-top:10%;
+  position:absolute;
+  text-align:center;
+  top:100%; 
+  left:0;
+  width:100%;
+
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+.project-thumbnail {
+  position:relative;
+  overflow:hidden;
+}
+.project-thumbnail:hover .project-info
+{
+  top:0;
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
 
 .topnav {
-  background-color:#3B3B3B;
-  position:fixed;
-  width:100%;
-  border-bottom:1px solid #DDD;
-  z-index:9999;
+    background-color: #3B3B3B;
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid #DDD;
+    z-index: 9999;
 }
 
 .topnav .content {
-  width:970px;
-  height:70px;
-  margin:0 auto;
+    width: 970px;
+    height: 70px;
+    margin: 0 auto;
 }
 
-.topnav .links
-{float:right;
-color:#DCDCDC;
-font-size:1.2em;
-margin-top:1.7rem;
+.topnav .links {
+    float: right;
+    color: #DCDCDC;
+    font-size: 1.2em;
+    margin-top: 1.7rem;
 }
 
-.topnav .links li {display:inline-block;
-margin-left:1px;}
+.topnav .links li {
+    display: inline-block;
+    margin-left: 1px;
+}
 
 .topnav .links li:hover {
-  cursor:pointer;
+    cursor: pointer;
 }
 
-
-
-.masthead
-{
-background-image:url("https://images.unsplash.com/38/awhCbhLqRceCdjcPQUnn_IMG_0249.jpg?q=80&fm=jpg&s=293cce57f99e5d60745e1da9da9db675");
-background-repeat:no-repeat;
-background-size:cover;
-background-attachment:fixed; 
-padding:5em 0;
-height:480px; 
-line-height:100%;
+.masthead {
+    background-image: url("https://images.unsplash.com/38/awhCbhLqRceCdjcPQUnn_IMG_0249.jpg?q=80&fm=jpg&s=293cce57f99e5d60745e1da9da9db675");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 5em 0;
+    height: 480px;
+    line-height: 100%;
 }
 
-.mastheadintro{
-margin-botton:0.1em;
-font-size:2.7em;
-  text-align:center;
-color:black}
-
-
-.mastheading{margin-top:-0.2em;
-  text-align:center;
-  color:black;
-  font-size:4.5em;
+.mastheadintro {
+    margin-botton: 0.1em;
+    font-size: 2.7em;
+    text-align: center;
+    color: black
 }
 
-.masthead > img{
-  max-height: 100px;
-  border-radius: 150%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border: 4px solid #DCDCDC;
+.mastheading {
+    margin-top: -0.2em;
+    text-align: center;
+    color: black;
+    font-size: 4.5em;
 }
 
-.projects img {width:100%;}
+.masthead > img {
+    max-height: 100px;
+    border-radius: 150%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 4px solid #DCDCDC;
+}
 
-.intro {margin-top:2em}
+.projects img {
+    width: 100%;
+}
+
+.intro {
+    margin-top: 2em
+}
 
 .projects,
 .intro,
 .location,
 .about,
-.contact
- {max-width: 38em;
+.contact {
+    max-width: 38em;
     margin-left: auto;
     margin-right: auto;
-    line-height:200%}
-
-
-footer {font-size:1.3em;}
-
-.content-footer{text-align:center;
-margin-top:2em;
-padding:4em 0}
-
-.social li,a{display:inline-block;
-color:#DCDCDC;
-padding:2px;
+    line-height: 200%
 }
 
+footer {
+    font-size: 1.3em;
+}
+
+.content-footer {
+    text-align: center;
+    margin-top: 2em;
+    padding: 4em 0
+}
+
+.social li,
+a {
+    display: inline-block;
+    color: #DCDCDC;
+    padding: 2px;
+}
 
 @media only screen and (max-width: 500px) {
     .masthead-heading {
         font-size: 3em;
     }
 }
-
-
 
 @media only screen and (max-width: 500px) {
     .masthead {
@@ -116,10 +156,11 @@ padding:2px;
 }
 
 @media only screen and (max-width:500px) {
- .navbar {font-size:3em;
- }
- 
- @media only screen and (max-width:500px) {
- .intro {padding:3em 0;
- font-size:3em}
- 
+    .navbar {
+        font-size: 3em;
+    }
+    @media only screen and (max-width:500px) {
+        .intro {
+            padding: 3em 0;
+            font-size: 3em
+        }
