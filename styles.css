@@ -1,3 +1,9 @@
+html, body { 
+  margin:0; 
+  padding:0; 
+  height:100%; 
+}
+
 body {
 
     background-color:#e5e5e5;
@@ -34,15 +40,15 @@ ul {
 
 .header p {
   text-align:center;
-  line-height: 2px;
 }
 
 
 nav {
+  background-color:white;
   color:#333;
   width:100%;
   height:100px;
-  top:70px;
+  top:0px;
   margin:auto auto;
   position:fixed;
   z-index: 100;
@@ -76,8 +82,7 @@ article{
   overflow:auto;
 }
 
-.portfoliobanner{background-image:url("https://images.unsplash.com/38/awhCbhLqRceCdjcPQUnn_IMG_0249.jpg?q=80&fm=jpg&s=293cce57f99e5d60745e1da9da9db675");
-background-position:bottom center;}
+.portfoliobanner{background-color:black; color:white; line-height:220px;}
 
 
 
@@ -98,6 +103,7 @@ ul {
 
 .project-info {
   background-color: rgba(0,0,0,.8);
+  color:white;
   font-size:16px;
   height:100%;
   padding-top:10%;
@@ -113,8 +119,20 @@ ul {
   transition: all .5s ease-in-out;
 }
 .project-thumbnail {
+  float:left;
+  height:300px;
   position:relative;
   overflow:hidden;
+  width:33.33%;
+}
+.project-thumbnail img {
+  position:absolute;
+  left:-75%;
+}
+.project-thumbnail:hover img
+{
+  /*height:125%;
+  width:125%;*/
 }
 .project-thumbnail:hover .project-info
 {
