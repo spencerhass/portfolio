@@ -1,4 +1,5 @@
 body {
+
     background-color:#e5e5e5;
     margin: 0px;
     
@@ -80,6 +81,21 @@ background-position:bottom center;}
 
 
 
+{
+    background: #3B3B3B;
+    color: #DCDCDC;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+ol,
+ul {
+    list-style: none
+}
+
+
 .project-info {
   background-color: rgba(0,0,0,.8);
   font-size:16px;
@@ -109,7 +125,11 @@ background-position:bottom center;}
   transition: all .5s ease-in-out;
 }
 
+
 /*.topnav {
+=======
+.topnav {
+>>>>>>> 9d6bb94d0a94b3624b1e1eb72a6645a960992d83
     background-color: #3B3B3B;
     position: fixed;
     width: 100%;
@@ -125,7 +145,11 @@ background-position:bottom center;}
 
 .topnav .links {
     float: right;
+<<<<<<< HEAD
     color: inherit;
+=======
+    color: #DCDCDC;
+>>>>>>> 9d6bb94d0a94b3624b1e1eb72a6645a960992d83
     font-size: 1.2em;
     margin-top: 1.7rem;
 }
@@ -137,6 +161,7 @@ background-position:bottom center;}
 
 .topnav .links li:hover {
     cursor: pointer;
+<<<<<<< HEAD
 }
 */
 /*.masthead {
@@ -189,6 +214,47 @@ background-position:bottom center;}
     width: 100%;
 }
 
+
+
+
+.masthead {
+    background-image: url("https://images.unsplash.com/38/awhCbhLqRceCdjcPQUnn_IMG_0249.jpg?q=80&fm=jpg&s=293cce57f99e5d60745e1da9da9db675");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 5em 0;
+    height: 480px;
+    line-height: 100%;
+}
+
+.mastheadintro {
+    margin-botton: 0.1em;
+    font-size: 2.7em;
+    text-align: center;
+    color: black
+}
+
+.mastheading {
+    margin-top: -0.2em;
+    text-align: center;
+    color: black;
+    font-size: 4.5em;
+}
+
+.masthead > img {
+    max-height: 100px;
+    border-radius: 150%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 4px solid #DCDCDC;
+}
+
+.projects img {
+    width: 100%;
+}
+
+
 .intro {
     margin-top: 2em
 }
@@ -206,7 +272,7 @@ background-position:bottom center;}
 
 footer {
     font-size: 1.3em;
-    text-
+
 }
 
 .content-footer {
@@ -220,7 +286,9 @@ a {
     display: inline-block;
     color: #DCDCDC;
     padding: 2px;
+
     text-decoration: none;
+
 }
 
 @media only screen and (max-width: 500px) {
@@ -246,5 +314,8 @@ a {
         .intro {
             padding: 3em 0;
             font-size: 3em
-        }
+
  
+
+        }}
+
