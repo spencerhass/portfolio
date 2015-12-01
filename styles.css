@@ -13,6 +13,7 @@ body {
 
 p{color:#333;
 font-family:'Open Sans', sans-serif;}
+p.about-text{ margin:20px auto; line-height:22px; width:80%; }
 
 ol,
 ul {
@@ -72,32 +73,19 @@ nav li{display: inline; margin-left: 50px; line-height: 40px}
 
 article{
   width:100%;
-  height:2290px;
 }
 
 .headerbanner {
   background-attachment: fixed;
+  background-color:black;
   background-size:cover;
+  color:white;
   width:100%;
   height:100px;
+  line-height:100px;
   text-align:center;
   overflow:auto;
   font-size:2.1em;
-}
-
-.portfoliobanner{background-color:black; color:white; line-height:200px;}
-
-.aboutbanner {background-color:black; color:white; line-height:200px;}
-
-.contactbanner {background-color:black; color:white; line-height:200px;}
-
-{
-    background: #3B3B3B;
-    color: #DCDCDC;
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    overflow-x: hidden;
 }
 
 ol,
@@ -126,10 +114,14 @@ ul {
 .project-thumbnail {
   float:left;
   height:300px;
+  margin-bottom:.5%;
   position:relative;
   overflow:hidden;
-  width:33.33%;
+  width:33%;
 }
+
+#portfolio-wrapper .project-thumbnail:nth-child(3n+2){ margin-left:.5%; margin-right:.5%; }
+
 .project-thumbnail img {
   position:absolute;
   left:-75%;
@@ -152,8 +144,9 @@ ul {
 
 
 #title{
+  text-shadow: 2px 2px 15px #F00;
+  color:white;
   font-size:40px;
-
 }
 
 #subtitle {
