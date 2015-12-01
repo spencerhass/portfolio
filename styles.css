@@ -44,8 +44,8 @@ ul {
 
 
 nav {
-  background-color:white;
-  color:#333;
+  background-color: #DCDCDC;
+  color:#FFF;
   width:100%;
   height:100px;
   top:0px;
@@ -63,7 +63,9 @@ line-height:40px;
 margin-left:100px;}
 
 nav .links {font-size:15px;
-opacity:.4;}
+opacity:.4;
+color:#313131;
+}
 
 nav ul{margin-right: 100px; float: right;}
 nav li{display: inline; margin-left: 50px; line-height: 40px}
@@ -77,14 +79,17 @@ article{
   background-attachment: fixed;
   background-size:cover;
   width:100%;
-  height:220px;
+  height:100px;
   text-align:center;
   overflow:auto;
+  font-size:2.1em;
 }
 
-.portfoliobanner{background-color:black; color:white; line-height:220px;}
+.portfoliobanner{background-color:black; color:white; line-height:200px;}
 
+.aboutbanner {background-color:black; color:white; line-height:200px;}
 
+.contactbanner {background-color:black; color:white; line-height:200px;}
 
 {
     background: #3B3B3B;
@@ -144,82 +149,11 @@ ul {
 }
 
 
-/*.topnav {
-=======
-.topnav {
->>>>>>> 9d6bb94d0a94b3624b1e1eb72a6645a960992d83
-    background-color: #3B3B3B;
-    position: fixed;
-    width: 100%;
-    border-bottom: 1px solid #DDD;
-    z-index: 9999;
-}
-
-.topnav .content {
-    width: 970px;
-    height: 70px;
-    margin: 0 auto;
-}
-
-.topnav .links {
-    float: right;
-<<<<<<< HEAD
-    color: inherit;
-=======
-    color: #DCDCDC;
->>>>>>> 9d6bb94d0a94b3624b1e1eb72a6645a960992d83
-    font-size: 1.2em;
-    margin-top: 1.7rem;
-}
-
-.topnav .links li {
-    display: inline-block;
-    margin-left: 1px;
-}
-
-.topnav .links li:hover {
-    cursor: pointer;
-<<<<<<< HEAD
-}
-*/
-/*.masthead {
-    background-image: url("https://images.unsplash.com/38/awhCbhLqRceCdjcPQUnn_IMG_0249.jpg?q=80&fm=jpg&s=293cce57f99e5d60745e1da9da9db675");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    padding: 5em 0;
-    height: 480px;
-    line-height: 100%;
-}
-
-.mastheadintro {
-    margin-botton: 0.1em;
-    font-size: 2.7em;
-    text-align: center;
-    color: black
-}
-
-.mastheading {
-    margin-top: -0.2em;
-    text-align: center;
-    color: black;
-    font-size: 4.5em;
-}
-
-.masthead > img {
-    max-height: 100px;
-    border-radius: 150%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border: 4px solid #DCDCDC;
-} */
-
-
 
 
 #title{
   font-size:40px;
+
 }
 
 #subtitle {
@@ -233,44 +167,6 @@ ul {
 }
 
 
-
-
-.masthead {
-    background-image: url("https://images.unsplash.com/38/awhCbhLqRceCdjcPQUnn_IMG_0249.jpg?q=80&fm=jpg&s=293cce57f99e5d60745e1da9da9db675");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    padding: 5em 0;
-    height: 480px;
-    line-height: 100%;
-}
-
-.mastheadintro {
-    margin-botton: 0.1em;
-    font-size: 2.7em;
-    text-align: center;
-    color: black
-}
-
-.mastheading {
-    margin-top: -0.2em;
-    text-align: center;
-    color: black;
-    font-size: 4.5em;
-}
-
-.masthead > img {
-    max-height: 100px;
-    border-radius: 150%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border: 4px solid #DCDCDC;
-}
-
-.projects img {
-    width: 100%;
-}
 
 
 .intro {
@@ -297,12 +193,13 @@ footer {
     text-align: center;
     margin-top: 2em;
     padding: 4em 0
+
 }
 
 .social li,
 a {
     display: inline-block;
-    color: #DCDCDC;
+    color: #313131;
     padding: 2px;
 
     text-decoration: none;
