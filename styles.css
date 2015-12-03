@@ -122,7 +122,6 @@ ul {
   position:relative;
   overflow:hidden;
   width:33%;
-
 }
 
 #portfolio-wrapper .project-thumbnail:nth-child(3n+2){ margin-left:.5%; margin-right:.5%; }
@@ -208,16 +207,5 @@ a {
 
 
 
-@media only screen and (max-width:500px) {
-    .navbar {
-        font-size: 3em;
-    }
-    @media only screen and (max-width:500px) {
-        .intro {
-            padding: 3em 0;
-            font-size: 3em
 
- 
-
-        }}
 
